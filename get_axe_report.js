@@ -21,60 +21,127 @@ class AccessibilityReporter {
       return JSON.parse(output);
     } catch (e) {
       throw new Error(
-        `Axe-CLI did not return valid JSON.\n\nSTDOUT:\n${result.stdout}\n\nSTDERR:\n${result.stderr}`
+        `Axe‑CLI did not return valid JSON.\n\nSTDOUT:\n${result.stdout}\n\nSTDERR:\n${result.stderr}`
       );
     }
   }
 
-  static mapImpactLevel(impact) {
-    return (
-      {
-        critical: "error",
-        serious: "error",
-        moderate: "warning",
-        minor: "notice",
-      }[impact] || "notice"
-    );
-  }
-
-  static reformatViolations(report) {
+  static extractDetailedViolations(report) {
     const currentReport = Array.isArray(report) ? report[0] : report;
-    const reformattedViolations = [];
 
-    ["violations"].forEach((category) => {
-      (currentReport[category] || []).forEach((violation) => {
-        violation.nodes.forEach((node) => {
-          reformattedViolations.push({
-            code: violation.id,
-            type: AccessibilityReporter.mapImpactLevel(violation.impact),
-            message: violation.description,
-            context: node.html,
-            selector: node.target[0] || null,
-            runner: "axe-core",
-            impact: violation.impact,
-            helpUrl: violation.helpUrl,
-          });
-        });
-      });
+    const detailedViolations = {
+      errors: [],
+      warnings: [],
+      notices: [],
+      inapplicable: currentReport.inapplicable || [],
+      incomplete: currentReport.incomplete || [],
+    };
+
+    // Categorize violations
+    const violations = currentReport.violations || [];
+    violations.forEach((violation) => {
+      console.log(violation);
+      const violationDetails = {
+        id: violation.id,
+        description: violation.description,
+        help: violation.help,
+        helpUrl: violation.helpUrl,
+        impact: violation.impact,
+        // Include the tags array from the original violation
+        tags: violation.tags || [],
+        affected_elements: violation.nodes.map((node) => ({
+          target: node.target,
+          html: node.html,
+          failure_summary: node.failureSummary,
+          any_checks: node.any.map((check) => ({
+            id: check.id,
+            message: check.message,
+            data: check.data,
+          })),
+          all_checks: node.all.map((check) => ({
+            id: check.id,
+            message: check.message,
+            data: check.data,
+          })),
+          none_checks: node.none.map((check) => ({
+            id: check.id,
+            message: check.message,
+            data: check.data,
+          })),
+        })),
+      };
+
+      // Categorize based on impact
+      switch (violation.impact) {
+        case "critical":
+        case "serious":
+          detailedViolations.errors.push(violationDetails);
+          break;
+        case "moderate":
+          detailedViolations.warnings.push(violationDetails);
+          break;
+        default:
+          detailedViolations.notices.push(violationDetails);
+      }
     });
 
-    return reformattedViolations;
+    // Process inapplicable rules to ensure they also have tags
+    if (currentReport.inapplicable) {
+      detailedViolations.inapplicable = currentReport.inapplicable.map(
+        (rule) => ({
+          id: rule.id,
+          description: rule.description,
+          help: rule.help,
+          helpUrl: rule.helpUrl,
+          tags: rule.tags || [],
+        })
+      );
+    }
+
+    // Process incomplete rules to ensure they also have tags
+    if (currentReport.incomplete) {
+      detailedViolations.incomplete = currentReport.incomplete.map((rule) => ({
+        id: rule.id,
+        description: rule.description,
+        help: rule.help,
+        helpUrl: rule.helpUrl,
+        tags: rule.tags || [],
+      }));
+    }
+
+    // Add additional report metadata
+    detailedViolations.metadata = {
+      testEngine: currentReport.testEngine,
+      testRunner: currentReport.testRunner,
+      testEnvironment: currentReport.testEnvironment,
+      timestamp: currentReport.timestamp,
+      url: currentReport.url,
+    };
+
+    return detailedViolations;
   }
 
   static generateReport(url, outputFile = "accessibility_report.json") {
     try {
+      // Run Axe test
       const report = this.runAxeTest(url);
-      const reformattedReport = this.reformatViolations(report);
 
-      fs.writeFileSync(outputFile, JSON.stringify(reformattedReport, null, 2));
-      console.log(`Reformatted report saved to ${path.resolve(outputFile)}`);
+      // Extract detailed violations
+      const detailedReport = this.extractDetailedViolations(report);
 
-      const errorCount = reformattedReport.filter(
-        (v) => v.type === "error"
-      ).length;
-      console.log(`Errors: ${errorCount}`);
+      // Save detailed report
+      fs.writeFileSync(outputFile, JSON.stringify(detailedReport, null, 2));
+      console.log(`Detailed report saved to ${path.resolve(outputFile)}`);
 
-      process.exit(errorCount > 0 ? 1 : 0);
+      // Console summary
+      console.log(`Errors: ${detailedReport.errors.length}`);
+      console.log(`Warnings: ${detailedReport.warnings.length}`);
+      console.log(`Notices: ${detailedReport.notices.length}`);
+      console.log(`Inapplicable Rules: ${detailedReport.inapplicable.length}`);
+      console.log(`Incomplete Rules: ${detailedReport.incomplete.length}`);
+
+      // Exit with status based on violations
+      process.exit(detailedReport.errors.length > 0 ? 1 : 0);
     } catch (error) {
       console.error("Error generating accessibility report:", error.message);
       process.exit(1);
@@ -89,10 +156,12 @@ class AccessibilityReporter {
       );
       process.exit(1);
     }
+
     this.generateReport(args[0], args[1] || "accessibility_report.json");
   }
 }
 
+// Entry point
 if (require.main === module) {
   AccessibilityReporter.main();
 }
