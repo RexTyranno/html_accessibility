@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>My Website</title>
+    <style>
+      body {
+        background-color: lightgray;
+        color: yellow; /* Poor contrast */
+        font-size: 10px; /* Hard to read */
+      }
+      .button {
+        background-color: blue; /* Not keyboard accessible */
+        color: white;
+        border: none;
+        padding: 10px;
+      }
+    </style>
+  </head>
+  <body>
+    <div>
+      <h2>Welcome</h2>
+      <h5>Subtitle</h5>
+      <!-- Improper heading structure -->
+      <p>Click <a href="#">here</a> to learn more.</p>
+      <img src="image.jpg" />
+      <!-- Missing alt text -->
+      <button class="button" onclick="alert('Clicked!')">Click Me</button>
+      <!-- Not keyboard accessible -->
+    </div>
+
+    <form>
+      <input type="text" placeholder="Enter your name" />
+      <!-- Missing label -->
+      <input type="submit" value="Submit" />
+    </form>
+  </body>
+</html>

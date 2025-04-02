@@ -1,0 +1,132 @@
+[
+  {
+    "code": "color-contrast",
+    "type": "error",
+    "message": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+    "context": "<h2>Welcome</h2>",
+    "selector": "h2",
+    "runner": "axe-core",
+    "impact": "serious",
+    "helpUrl": "https://dequeuniversity.com/rules/axe/4.10/color-contrast?application=webdriverjs"
+  },
+  {
+    "code": "color-contrast",
+    "type": "error",
+    "message": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+    "context": "<h5>Subtitle</h5>",
+    "selector": "h5",
+    "runner": "axe-core",
+    "impact": "serious",
+    "helpUrl": "https://dequeuniversity.com/rules/axe/4.10/color-contrast?application=webdriverjs"
+  },
+  {
+    "code": "color-contrast",
+    "type": "error",
+    "message": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+    "context": "<p>Click <a href=\"#\">here</a> to learn more.</p>",
+    "selector": "p",
+    "runner": "axe-core",
+    "impact": "serious",
+    "helpUrl": "https://dequeuniversity.com/rules/axe/4.10/color-contrast?application=webdriverjs"
+  },
+  {
+    "code": "heading-order",
+    "type": "warning",
+    "message": "Ensure the order of headings is semantically correct",
+    "context": "<h5>Subtitle</h5>",
+    "selector": "h5",
+    "runner": "axe-core",
+    "impact": "moderate",
+    "helpUrl": "https://dequeuniversity.com/rules/axe/4.10/heading-order?application=webdriverjs"
+  },
+  {
+    "code": "html-has-lang",
+    "type": "error",
+    "message": "Ensure every HTML document has a lang attribute",
+    "context": "<html>",
+    "selector": "html",
+    "runner": "axe-core",
+    "impact": "serious",
+    "helpUrl": "https://dequeuniversity.com/rules/axe/4.10/html-has-lang?application=webdriverjs"
+  },
+  {
+    "code": "image-alt",
+    "type": "error",
+    "message": "Ensure <img> elements have alternative text or a role of none or presentation",
+    "context": "<img src=\"image.jpg\">",
+    "selector": "img",
+    "runner": "axe-core",
+    "impact": "critical",
+    "helpUrl": "https://dequeuniversity.com/rules/axe/4.10/image-alt?application=webdriverjs"
+  },
+  {
+    "code": "landmark-one-main",
+    "type": "warning",
+    "message": "Ensure the document has a main landmark",
+    "context": "<html>",
+    "selector": "html",
+    "runner": "axe-core",
+    "impact": "moderate",
+    "helpUrl": "https://dequeuniversity.com/rules/axe/4.10/landmark-one-main?application=webdriverjs"
+  },
+  {
+    "code": "page-has-heading-one",
+    "type": "warning",
+    "message": "Ensure that the page, or at least one of its frames contains a level-one heading",
+    "context": "<html>",
+    "selector": "html",
+    "runner": "axe-core",
+    "impact": "moderate",
+    "helpUrl": "https://dequeuniversity.com/rules/axe/4.10/page-has-heading-one?application=webdriverjs"
+  },
+  {
+    "code": "region",
+    "type": "warning",
+    "message": "Ensure all page content is contained by landmarks",
+    "context": "<h2>Welcome</h2>",
+    "selector": "h2",
+    "runner": "axe-core",
+    "impact": "moderate",
+    "helpUrl": "https://dequeuniversity.com/rules/axe/4.10/region?application=webdriverjs"
+  },
+  {
+    "code": "region",
+    "type": "warning",
+    "message": "Ensure all page content is contained by landmarks",
+    "context": "<h5>Subtitle</h5>",
+    "selector": "h5",
+    "runner": "axe-core",
+    "impact": "moderate",
+    "helpUrl": "https://dequeuniversity.com/rules/axe/4.10/region?application=webdriverjs"
+  },
+  {
+    "code": "region",
+    "type": "warning",
+    "message": "Ensure all page content is contained by landmarks",
+    "context": "<p>Click <a href=\"#\">here</a> to learn more.</p>",
+    "selector": "p",
+    "runner": "axe-core",
+    "impact": "moderate",
+    "helpUrl": "https://dequeuniversity.com/rules/axe/4.10/region?application=webdriverjs"
+  },
+  {
+    "code": "region",
+    "type": "warning",
+    "message": "Ensure all page content is contained by landmarks",
+    "context": "<img src=\"image.jpg\">",
+    "selector": "img",
+    "runner": "axe-core",
+    "impact": "moderate",
+    "helpUrl": "https://dequeuniversity.com/rules/axe/4.10/region?application=webdriverjs"
+  },
+  {
+    "code": "region",
+    "type": "warning",
+    "message": "Ensure all page content is contained by landmarks",
+    "context": "<input type=\"text\" placeholder=\"Enter your name\">",
+    "selector": "input[type=\"text\"]",
+    "runner": "axe-core",
+    "impact": "moderate",
+    "helpUrl": "https://dequeuniversity.com/rules/axe/4.10/region?application=webdriverjs"
+  }
+]

@@ -1,0 +1,222 @@
+[
+ {
+   "Technique Code": "H2",
+   "Description": "Combining adjacent image and text links for the same resource"
+ },
+ {
+   "Technique Code": "H24",
+   "Description": "Providing text alternatives for the area elements of image maps"
+ },
+ {
+   "Technique Code": "H25",
+   "Description": "Providing a title using the title element"
+ },
+ {
+   "Technique Code": "H28",
+   "Description": "Providing definitions for abbreviations by using the abbr element"
+ },
+ {
+   "Technique Code": "H30",
+   "Description": "Providing link text that describes the purpose of a link for anchor elements"
+ },
+ {
+   "Technique Code": "H32",
+   "Description": "Providing submit buttons"
+ },
+ {
+   "Technique Code": "H33",
+   "Description": "Supplementing link text with the title attribute"
+ },
+ {
+   "Technique Code": "H34",
+   "Description": "Using a Unicode right-to-left mark (RLM) or left-to-right mark (LRM) to mix text direction inline"
+ },
+ {
+   "Technique Code": "H36",
+   "Description": "Using alt attributes on images used as submit buttons"
+ },
+ {
+   "Technique Code": "H37",
+   "Description": "Using alt attributes on img elements"
+ },
+ {
+   "Technique Code": "H39",
+   "Description": "Using caption elements to associate data table captions with data tables"
+ },
+ {
+   "Technique Code": "H40",
+   "Description": "Using description lists"
+ },
+ {
+   "Technique Code": "H42",
+   "Description": "Using h1-hé6 to identify headings"
+ },
+ {
+   "Technique Code": "H43",
+   "Description": "Using id and headers attributes to associate data cells with header cells in data tables"
+ },
+ {
+   "Technique Code": "H44",
+   "Description": "Using label elements to associate text labels with form controls"
+ },
+ {
+   "Technique Code": "H48",
+   "Description": "Using ol, ul and dl for lists or groups of links"
+ },
+ {
+   "Technique Code": "H49",
+   "Description": "Using semantic markup to mark emphasized or special text"
+ },
+ {
+   "Technique Code": "H51",
+   "Description": "Using table markup to present tabular information"
+ },
+ {
+   "Technique Code": "H53",
+   "Description": "Using the body of the object element"
+ },
+ {
+   "Technique Code": "H54",
+   "Description": "Using the dfn element to identify the defining instance of a word"
+ },
+ {
+   "Technique Code": "H56",
+   "Description": "Using the dir attribute on an inline element to resolve problems with nested directional runs"
+ },
+ {
+   "Technique Code": "H57",
+   "Description": "Using the language attribute on the HTML element"
+ },
+ {
+   "Technique Code": "H58",
+   "Description": "Using language attributes to identify changes in the human language"
+ },
+ {
+   "Technique Code": "H62",
+   "Description": "Using the ruby element"
+ },
+ {
+   "Technique Code": "H63",
+   "Description": "Using the scope attribute to associate header cells with data cells in data tables"
+ },
+ {
+   "Technique Code": "H64",
+   "Description": "Using the title attribute of the iframe element"
+ },
+ {
+   "Technique Code": "H65",
+   "Description": "Using the title attribute to identify form controls when the label element cannot be used"
+ },
+ {
+   "Technique Code": "H67",
+   "Description": "Using null alt text and no title attribute on img elements for images that assistive technology should ignore"
+ },
+ {
+   "Technique Code": "H69",
+   "Description": "Providing heading elements at the beginning of each section of content"
+ },
+ {
+   "Technique Code": "H71",
+   "Description": "Providing a description for groups of form controls using fieldset and legend elements"
+ },
+ {
+   "Technique Code": "H74",
+   "Description": "Ensuring that opening and closing tags are used according to specification"
+ },
+ {
+   "Technique Code": "H75",
+   "Description": "Ensuring that Web pages are well-formed"
+ },
+ {
+   "Technique Code": "H76",
+   "Description": "Using meta refresh to create an instant client-side redirect"
+ },
+ {
+   "Technique Code": "H77",
+   "Description": "Identifying the purpose of a link using link text combined with its enclosing list item"
+ },
+ {
+   "Technique Code": "H78",
+   "Description": "Identifying the purpose of a link using link text combined with its enclosing paragraph"
+ },
+ {
+   "Technique Code": "H79",
+   "Description": "Identifying the purpose of a link in a data table using the link text combined with its enclosing table cell and"
+ },
+ {
+   "Technique Code": "H80",
+   "Description": "Identifying the purpose of a link using link text combined with the preceding heading element"
+ },
+ {
+   "Technique Code": "H81",
+   "Description": "Identifying the purpose of a link in a nested list using link text combined with the parent list item under which the list"
+ },
+ {
+   "Technique Code": "H83",
+   "Description": "Using the target attribute to open a new window on user request and indicating this in link text"
+ },
+ {
+   "Technique Code": "H84",
+   "Description": "Using a button with a select element to perform an action"
+ },
+ {
+   "Technique Code": "H85",
+   "Description": "Using optgroup to group option elements inside a select"
+ },
+ {
+   "Technique Code": "H86",
+   "Description": "Providing text alternatives for emojis, emoticons, ASCII art, and leetspeak"
+ },
+ {
+   "Technique Code": "H88",
+   "Description": "Using HTML according to spec"
+ },
+ {
+   "Technique Code": "H89",
+   "Description": "Using the title attribute to provide context-sensitive help"
+ },
+ {
+   "Technique Code": "H90",
+   "Description": "Indicating required form controls using label or legend"
+ },
+ {
+   "Technique Code": "H91",
+   "Description": "Using HTML form controls and links"
+ },
+ {
+   "Technique Code": "H93",
+   "Description": "Ensuring that id attributes are unique on a Web page"
+ },
+ {
+   "Technique Code": "H94",
+   "Description": "Ensuring that elements do not contain duplicate attributes"
+ },
+ {
+   "Technique Code": "H95",
+   "Description": "Using the track element to provide captions"
+ },
+ {
+   "Technique Code": "H96",
+   "Description": "Using the track element to provide audio descriptions"
+ },
+ {
+   "Technique Code": "H97",
+   "Description": "Grouping related links using the nav element"
+ },
+ {
+   "Technique Code": "H98",
+   "Description": "Using HTML 5.2 autocomplete attributes"
+ },
+ {
+   "Technique Code": "H99",
+   "Description": "Provide a page-selection mechanism"
+ },
+ {
+   "Technique Code": "H101",
+   "Description": "Using semantic HTML elements to identify regions of a page"
+ },
+ {
+   "Technique Code": "H102",
+   "Description": "Creating modal dialogs with the HTML dialog element"
+ }
+]

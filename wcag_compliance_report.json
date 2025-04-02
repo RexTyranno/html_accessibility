@@ -1,0 +1,1096 @@
+[
+  {
+    "id": "1.1.1",
+    "title": "Non-text Content",
+    "A": "error",
+    "AA": "error",
+    "AAA": "error",
+    "details": {
+      "description": "Ensure <img> elements have alternative text or a role of none or presentation",
+      "impact": "critical",
+      "ruleId": "image-alt"
+    }
+  },
+  {
+    "id": "1.1.1",
+    "title": "Non-text Content",
+    "A": "inapplicable",
+    "AA": "inapplicable",
+    "AAA": "inapplicable",
+    "details": {
+      "description": "Ensure every ARIA meter node has an accessible name",
+      "ruleId": "aria-meter-name"
+    }
+  },
+  {
+    "id": "1.1.1",
+    "title": "Non-text Content",
+    "A": "inapplicable",
+    "AA": "inapplicable",
+    "AAA": "inapplicable",
+    "details": {
+      "description": "Ensure every ARIA progressbar node has an accessible name",
+      "ruleId": "aria-progressbar-name"
+    }
+  },
+  {
+    "id": "1.1.1",
+    "title": "Non-text Content",
+    "A": "inapplicable",
+    "AA": "inapplicable",
+    "AAA": "inapplicable",
+    "details": {
+      "description": "Ensure <input type=\"image\"> elements have alternative text",
+      "ruleId": "input-image-alt"
+    }
+  },
+  {
+    "id": "1.1.1",
+    "title": "Non-text Content",
+    "A": "inapplicable",
+    "AA": "inapplicable",
+    "AAA": "inapplicable",
+    "details": {
+      "description": "Ensure <object> elements have alternative text",
+      "ruleId": "object-alt"
+    }
+  },
+  {
+    "id": "1.1.1",
+    "title": "Non-text Content",
+    "A": "inapplicable",
+    "AA": "inapplicable",
+    "AAA": "inapplicable",
+    "details": {
+      "description": "Ensure [role=\"img\"] elements have alternative text",
+      "ruleId": "role-img-alt"
+    }
+  },
+  {
+    "id": "1.1.1",
+    "title": "Non-text Content",
+    "A": "inapplicable",
+    "AA": "inapplicable",
+    "AAA": "inapplicable",
+    "details": {
+      "description": "Ensure <svg> elements with an img, graphics-document or graphics-symbol role have an accessible text",
+      "ruleId": "svg-img-alt"
+    }
+  },
+  {
+    "id": "1.2.1",
+    "title": "Audio-only and Video-only (Prerecorded)",
+    "A": "pass",
+    "AA": "pass",
+    "AAA": "pass"
+  },
+  {
+    "id": "1.2.2",
+    "title": "Captions (Prerecorded)",
+    "A": "inapplicable",
+    "AA": "inapplicable",
+    "AAA": "inapplicable",
+    "details": {
+      "description": "Ensure <video> elements have captions",
+      "ruleId": "video-caption"
+    }
+  },
+  {
+    "id": "1.2.3",
+    "title": "Audio Description or Media Alternative (Prerecorded)",
+    "A": "pass",
+    "AA": "pass",
+    "AAA": "pass"
+  },
+  {
+    "id": "1.2.4",
+    "title": "Captions (Live)",
+    "A": null,
+    "AA": "pass",
+    "AAA": "pass"
+  },
+  {
+    "id": "1.2.5",
+    "title": "Audio Description (Prerecorded)",
+    "A": null,
+    "AA": "pass",
+    "AAA": "pass"
+  },
+  {
+    "id": "1.2.6",
+    "title": "Sign Language (Prerecorded)",
+    "A": null,
+    "AA": null,
+    "AAA": "pass"
+  },
+  {
+    "id": "1.2.7",
+    "title": "Extended Audio Description (Prerecorded)",
+    "A": null,
+    "AA": null,
+    "AAA": "pass"
+  },
+  {
+    "id": "1.2.8",
+    "title": "Media Alternative (Prerecorded)",
+    "A": null,
+    "AA": null,
+    "AAA": "pass"
+  },
+  {
+    "id": "1.2.9",
+    "title": "Audio-only (Live)",
+    "A": null,
+    "AA": null,
+    "AAA": "pass"
+  },
+  {
+    "id": "1.3.1",
+    "title": "Info and Relationships",
+    "A": "inapplicable",
+    "AA": "inapplicable",
+    "AAA": "inapplicable",
+    "details": {
+      "description": "Ensure elements with an ARIA role that require child roles contain them",
+      "ruleId": "aria-required-children"
+    }
+  },
+  {
+    "id": "1.3.1",
+    "title": "Info and Relationships",
+    "A": "inapplicable",
+    "AA": "inapplicable",
+    "AAA": "inapplicable",
+    "details": {
+      "description": "Ensure elements with an ARIA role that require parent roles are contained by them",
+      "ruleId": "aria-required-parent"
+    }
+  },
+  {
+    "id": "1.3.1",
+    "title": "Info and Relationships",
+    "A": "inapplicable",
+    "AA": "inapplicable",
+    "AAA": "inapplicable",
+    "details": {
+      "description": "Ensure <dl> elements are structured correctly",
+      "ruleId": "definition-list"
+    }
+  },
+  {
+    "id": "1.3.1",
+    "title": "Info and Relationships",
+    "A": "inapplicable",
+    "AA": "inapplicable",
+    "AAA": "inapplicable",
+    "details": {
+      "description": "Ensure <dt> and <dd> elements are contained by a <dl>",
+      "ruleId": "dlitem"
+    }
+  },
+  {
+    "id": "1.3.1",
+    "title": "Info and Relationships",
+    "A": "inapplicable",
+    "AA": "inapplicable",
+    "AAA": "inapplicable",
+    "details": {
+      "description": "Ensure that lists are structured correctly",
+      "ruleId": "list"
+    }
+  },
+  {
+    "id": "1.3.1",
+    "title": "Info and Relationships",
+    "A": "inapplicable",
+    "AA": "inapplicable",
+    "AAA": "inapplicable",
+    "details": {
+      "description": "Ensure <li> elements are used semantically",
+      "ruleId": "listitem"
+    }
+  },
+  {
+    "id": "1.3.1",
+    "title": "Info and Relationships",
+    "A": "inapplicable",
+    "AA": "inapplicable",
+    "AAA": "inapplicable",
+    "details": {
+      "description": "Ensure that each cell in a table that uses the headers attribute refers only to other cells in that table",
+      "ruleId": "td-headers-attr"
+    }
+  },
+  {
+    "id": "1.3.1",
+    "title": "Info and Relationships",
+    "A": "inapplicable",
+    "AA": "inapplicable",
+    "AAA": "inapplicable",
+    "details": {
+      "description": "Ensure that <th> elements and elements with role=columnheader/rowheader have data cells they describe",
+      "ruleId": "th-has-data-cells"
+    }
+  },
+  {
+    "id": "1.3.2",
+    "title": "Meaningful Sequence",
+    "A": "pass",
+    "AA": "pass",
+    "AAA": "pass"
+  },
+  {
+    "id": "1.3.3",
+    "title": "Sensory Characteristics",
+    "A": "pass",
+    "AA": "pass",
+    "AAA": "pass"
+  },
+  {
+    "id": "1.3.4",
+    "title": "Orientation",
+    "A": null,
+    "AA": "pass",
+    "AAA": "pass"
+  },
+  {
+    "id": "1.3.5",
+    "title": "Identify Input Purpose",
+    "A": null,
+    "AA": "inapplicable",
+    "AAA": "inapplicable",
+    "details": {
+      "description": "Ensure the autocomplete attribute is correct and suitable for the form field",
+      "ruleId": "autocomplete-valid"
+    }
+  },
+  {
+    "id": "1.3.6",
+    "title": "Identify Purpose",
+    "A": null,
+    "AA": null,
+    "AAA": "pass"
+  },
+  {
+    "id": "1.4.1",
+    "title": "Use of Color",
+    "A": "pass",
+    "AA": "pass",
+    "AAA": "pass"
+  },
+  {
+    "id": "1.4.2",
+    "title": "Audio Control",
+    "A": "inapplicable",
+    "AA": "inapplicable",
+    "AAA": "inapplicable",
+    "details": {
+      "description": "Ensure <video> or <audio> elements do not autoplay audio for more than 3 seconds without a control mechanism to stop or mute the audio",
+      "ruleId": "no-autoplay-audio"
+    }
+  },
+  {
+    "id": "1.4.3",
+    "title": "Contrast (Minimum)",
+    "A": null,
+    "AA": "error",
+    "AAA": "error",
+    "details": {
+      "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+      "impact": "serious",
+      "ruleId": "color-contrast"
+    }
+  },
+  {
+    "id": "1.4.4",
+    "title": "Resize Text",
+    "A": null,
+    "AA": "inapplicable",
+    "AAA": "inapplicable",
+    "details": {
+      "description": "Ensure <meta name=\"viewport\"> does not disable text scaling and zooming",
+      "ruleId": "meta-viewport"
+    }
+  },
+  {
+    "id": "1.4.5",
+    "title": "Images of Text",
+    "A": null,
+    "AA": "pass",
+    "AAA": "pass"
+  },
+  {
+    "id": "1.4.6",
+    "title": "Contrast (Enhanced)",
+    "A": null,
+    "AA": null,
+    "AAA": "pass"
+  },
+  {
+    "id": "1.4.7",
+    "title": "Low or No Background Audio",
+    "A": null,
+    "AA": null,
+    "AAA": "pass"
+  },
+  {
+    "id": "1.4.8",
+    "title": "Visual Presentation",
+    "A": null,
+    "AA": null,
+    "AAA": "pass"
+  },
+  {
+    "id": "1.4.9",
+    "title": "Images of Text (No Exception)",
+    "A": null,
+    "AA": null,
+    "AAA": "pass"
+  },
+  {
+    "id": "1.4.10",
+    "title": "Reflow",
+    "A": null,
+    "AA": "pass",
+    "AAA": "pass"
+  },
+  {
+    "id": "1.4.11",
+    "title": "Non-text Contrast",
+    "A": null,
+    "AA": "pass",
+    "AAA": "pass"
+  },
+  {
+    "id": "1.4.12",
+    "title": "Text Spacing",
+    "A": null,
+    "AA": "inapplicable",
+    "AAA": "inapplicable",
+    "details": {
+      "description": "Ensure that text spacing set through style attributes can be adjusted with custom stylesheets",
+      "ruleId": "avoid-inline-spacing"
+    }
+  },
+  {
+    "id": "1.4.13",
+    "title": "Content on Hover or Focus",
+    "A": null,
+    "AA": "pass",
+    "AAA": "pass"
+  },
+  {
+    "id": "2.1.1",
+    "title": "Keyboard",
+    "A": "inapplicable",
+    "AA": "inapplicable",
+    "AAA": "inapplicable",
+    "details": {
+      "description": "Ensure <frame> and <iframe> elements with focusable content do not have tabindex=-1",
+      "ruleId": "frame-focusable-content"
+    }
+  },
+  {
+    "id": "2.1.1",
+    "title": "Keyboard",
+    "A": "inapplicable",
+    "AA": "inapplicable",
+    "AAA": "inapplicable",
+    "details": {
+      "description": "Ensure elements that have scrollable content are accessible by keyboard",
+      "ruleId": "scrollable-region-focusable"
+    }
+  },
+  {
+    "id": "2.1.1",
+    "title": "Keyboard",
+    "A": "inapplicable",
+    "AA": "inapplicable",
+    "AAA": "inapplicable",
+    "details": {
+      "description": "Ensure that server-side image maps are not used",
+      "ruleId": "server-side-image-map"
+    }
+  },
+  {
+    "id": "2.1.2",
+    "title": "No Keyboard Trap",
+    "A": "pass",
+    "AA": "pass",
+    "AAA": "pass"
+  },
+  {
+    "id": "2.1.3",
+    "title": "Keyboard (No Exception)",
+    "A": null,
+    "AA": null,
+    "AAA": "inapplicable",
+    "details": {
+      "description": "Ensure elements that have scrollable content are accessible by keyboard",
+      "ruleId": "scrollable-region-focusable"
+    }
+  },
+  {
+    "id": "2.1.4",
+    "title": "Character Key Shortcuts",
+    "A": "pass",
+    "AA": "pass",
+    "AAA": "pass"
+  },
+  {
+    "id": "2.2.1",
+    "title": "Timing Adjustable",
+    "A": "inapplicable",
+    "AA": "inapplicable",
+    "AAA": "inapplicable",
+    "details": {
+      "description": "Ensure <meta http-equiv=\"refresh\"> is not used for delayed refresh",
+      "ruleId": "meta-refresh"
+    }
+  },
+  {
+    "id": "2.2.2",
+    "title": "Pause, Stop, Hide",
+    "A": "inapplicable",
+    "AA": "inapplicable",
+    "AAA": "inapplicable",
+    "details": {
+      "description": "Ensure <blink> elements are not used",
+      "ruleId": "blink"
+    }
+  },
+  {
+    "id": "2.2.2",
+    "title": "Pause, Stop, Hide",
+    "A": "inapplicable",
+    "AA": "inapplicable",
+    "AAA": "inapplicable",
+    "details": {
+      "description": "Ensure <marquee> elements are not used",
+      "ruleId": "marquee"
+    }
+  },
+  {
+    "id": "2.2.3",
+    "title": "No Timing",
+    "A": null,
+    "AA": null,
+    "AAA": "pass"
+  },
+  {
+    "id": "2.2.4",
+    "title": "Interruptions",
+    "A": null,
+    "AA": null,
+    "AAA": "pass"
+  },
+  {
+    "id": "2.2.5",
+    "title": "Re-authenticating",
+    "A": null,
+    "AA": null,
+    "AAA": "pass"
+  },
+  {
+    "id": "2.2.6",
+    "title": "Timeouts",
+    "A": null,
+    "AA": null,
+    "AAA": "pass"
+  },
+  {
+    "id": "2.3.1",
+    "title": "Three Flashes or Below Threshold",
+    "A": "pass",
+    "AA": "pass",
+    "AAA": "pass"
+  },
+  {
+    "id": "2.3.2",
+    "title": "Three Flashes",
+    "A": null,
+    "AA": null,
+    "AAA": "pass"
+  },
+  {
+    "id": "2.3.3",
+    "title": "Animation from Interactions",
+    "A": null,
+    "AA": null,
+    "AAA": "pass"
+  },
+  {
+    "id": "2.4.1",
+    "title": "Bypass Blocks",
+    "A": "pass",
+    "AA": "pass",
+    "AAA": "pass"
+  },
+  {
+    "id": "2.4.2",
+    "title": "Page Titled",
+    "A": "pass",
+    "AA": "pass",
+    "AAA": "pass"
+  },
+  {
+    "id": "2.4.3",
+    "title": "Focus Order",
+    "A": "pass",
+    "AA": "pass",
+    "AAA": "pass"
+  },
+  {
+    "id": "2.4.4",
+    "title": "Link Purpose (In Context)",
+    "A": "inapplicable",
+    "AA": "inapplicable",
+    "AAA": "inapplicable",
+    "details": {
+      "description": "Ensure <area> elements of image maps have alternative text",
+      "ruleId": "area-alt"
+    }
+  },
+  {
+    "id": "2.4.5",
+    "title": "Multiple Ways",
+    "A": null,
+    "AA": "pass",
+    "AAA": "pass"
+  },
+  {
+    "id": "2.4.6",
+    "title": "Headings and Labels",
+    "A": null,
+    "AA": "pass",
+    "AAA": "pass"
+  },
+  {
+    "id": "2.4.7",
+    "title": "Focus Visible",
+    "A": null,
+    "AA": "pass",
+    "AAA": "pass"
+  },
+  {
+    "id": "2.4.8",
+    "title": "Location",
+    "A": null,
+    "AA": null,
+    "AAA": "pass"
+  },
+  {
+    "id": "2.4.9",
+    "title": "Link Purpose (Link Only)",
+    "A": null,
+    "AA": null,
+    "AAA": "pass"
+  },
+  {
+    "id": "2.4.10",
+    "title": "Section Headings",
+    "A": null,
+    "AA": null,
+    "AAA": "pass"
+  },
+  {
+    "id": "2.4.11",
+    "title": "Focus Not Obscured (Minimum)",
+    "A": null,
+    "AA": "pass",
+    "AAA": "pass"
+  },
+  {
+    "id": "2.4.12",
+    "title": "Focus Not Obscured (Enhanced)",
+    "A": null,
+    "AA": null,
+    "AAA": "pass"
+  },
+  {
+    "id": "2.4.13",
+    "title": "Focus Appearance",
+    "A": null,
+    "AA": null,
+    "AAA": "pass"
+  },
+  {
+    "id": "2.5.1",
+    "title": "Pointer Gestures",
+    "A": "pass",
+    "AA": "pass",
+    "AAA": "pass"
+  },
+  {
+    "id": "2.5.2",
+    "title": "Pointer Cancellation",
+    "A": "pass",
+    "AA": "pass",
+    "AAA": "pass"
+  },
+  {
+    "id": "2.5.3",
+    "title": "Label in Name",
+    "A": "pass",
+    "AA": "pass",
+    "AAA": "pass"
+  },
+  {
+    "id": "2.5.4",
+    "title": "Motion Actuation",
+    "A": "pass",
+    "AA": "pass",
+    "AAA": "pass"
+  },
+  {
+    "id": "2.5.5",
+    "title": "Target Size (Enhanced)",
+    "A": null,
+    "AA": null,
+    "AAA": "pass"
+  },
+  {
+    "id": "2.5.6",
+    "title": "Concurrent Input Mechanisms",
+    "A": null,
+    "AA": null,
+    "AAA": "pass"
+  },
+  {
+    "id": "2.5.7",
+    "title": "Dragging Movements",
+    "A": null,
+    "AA": "pass",
+    "AAA": "pass"
+  },
+  {
+    "id": "2.5.8",
+    "title": "Target Size (Minimum)",
+    "A": null,
+    "AA": "pass",
+    "AAA": "pass"
+  },
+  {
+    "id": "3.1.1",
+    "title": "Language of Page",
+    "A": "error",
+    "AA": "error",
+    "AAA": "error",
+    "details": {
+      "description": "Ensure every HTML document has a lang attribute",
+      "impact": "serious",
+      "ruleId": "html-has-lang"
+    }
+  },
+  {
+    "id": "3.1.1",
+    "title": "Language of Page",
+    "A": "inapplicable",
+    "AA": "inapplicable",
+    "AAA": "inapplicable",
+    "details": {
+      "description": "Ensure the lang attribute of the <html> element has a valid value",
+      "ruleId": "html-lang-valid"
+    }
+  },
+  {
+    "id": "3.1.1",
+    "title": "Language of Page",
+    "A": "inapplicable",
+    "AA": "inapplicable",
+    "AAA": "inapplicable",
+    "details": {
+      "description": "Ensure that HTML elements with both valid lang and xml:lang attributes agree on the base language of the page",
+      "ruleId": "html-xml-lang-mismatch"
+    }
+  },
+  {
+    "id": "3.1.2",
+    "title": "Language of Parts",
+    "A": null,
+    "AA": "inapplicable",
+    "AAA": "inapplicable",
+    "details": {
+      "description": "Ensure lang attributes have valid values",
+      "ruleId": "valid-lang"
+    }
+  },
+  {
+    "id": "3.1.3",
+    "title": "Unusual Words",
+    "A": null,
+    "AA": null,
+    "AAA": "pass"
+  },
+  {
+    "id": "3.1.4",
+    "title": "Abbreviations",
+    "A": null,
+    "AA": null,
+    "AAA": "pass"
+  },
+  {
+    "id": "3.1.5",
+    "title": "Reading Level",
+    "A": null,
+    "AA": null,
+    "AAA": "pass"
+  },
+  {
+    "id": "3.1.6",
+    "title": "Pronunciation",
+    "A": null,
+    "AA": null,
+    "AAA": "pass"
+  },
+  {
+    "id": "3.2.1",
+    "title": "On Focus",
+    "A": "pass",
+    "AA": "pass",
+    "AAA": "pass"
+  },
+  {
+    "id": "3.2.2",
+    "title": "On Input",
+    "A": "pass",
+    "AA": "pass",
+    "AAA": "pass"
+  },
+  {
+    "id": "3.2.3",
+    "title": "Consistent Navigation",
+    "A": null,
+    "AA": "pass",
+    "AAA": "pass"
+  },
+  {
+    "id": "3.2.4",
+    "title": "Consistent Identification",
+    "A": null,
+    "AA": "pass",
+    "AAA": "pass"
+  },
+  {
+    "id": "3.2.5",
+    "title": "Change on Request",
+    "A": null,
+    "AA": null,
+    "AAA": "pass"
+  },
+  {
+    "id": "3.2.6",
+    "title": "Consistent Help",
+    "A": "pass",
+    "AA": "pass",
+    "AAA": "pass"
+  },
+  {
+    "id": "3.3.1",
+    "title": "Error Identification",
+    "A": "pass",
+    "AA": "pass",
+    "AAA": "pass"
+  },
+  {
+    "id": "3.3.2",
+    "title": "Labels or Instructions",
+    "A": "pass",
+    "AA": "pass",
+    "AAA": "pass"
+  },
+  {
+    "id": "3.3.3",
+    "title": "Error Suggestion",
+    "A": null,
+    "AA": "pass",
+    "AAA": "pass"
+  },
+  {
+    "id": "3.3.4",
+    "title": "Error Prevention (Legal, Financial, Data)",
+    "A": null,
+    "AA": "pass",
+    "AAA": "pass"
+  },
+  {
+    "id": "3.3.5",
+    "title": "Help",
+    "A": null,
+    "AA": null,
+    "AAA": "pass"
+  },
+  {
+    "id": "3.3.6",
+    "title": "Error Prevention (All)",
+    "A": null,
+    "AA": null,
+    "AAA": "pass"
+  },
+  {
+    "id": "3.3.7",
+    "title": "Redundant Entry",
+    "A": "pass",
+    "AA": "pass",
+    "AAA": "pass"
+  },
+  {
+    "id": "3.3.8",
+    "title": "Accessible Authentication (Minimum)",
+    "A": null,
+    "AA": "pass",
+    "AAA": "pass"
+  },
+  {
+    "id": "3.3.9",
+    "title": "Accessible Authentication (Enhanced)",
+    "A": null,
+    "AA": null,
+    "AAA": "pass"
+  },
+  {
+    "id": "4.1.1",
+    "title": "Parsing",
+    "A": "pass",
+    "AA": "pass",
+    "AAA": "pass"
+  },
+  {
+    "id": "4.1.2",
+    "title": "Name, Role, Value",
+    "A": "inapplicable",
+    "AA": "inapplicable",
+    "AAA": "inapplicable",
+    "details": {
+      "description": "Ensure <area> elements of image maps have alternative text",
+      "ruleId": "area-alt"
+    }
+  },
+  {
+    "id": "4.1.2",
+    "title": "Name, Role, Value",
+    "A": "inapplicable",
+    "AA": "inapplicable",
+    "AAA": "inapplicable",
+    "details": {
+      "description": "Ensure an element's role supports its ARIA attributes",
+      "ruleId": "aria-allowed-attr"
+    }
+  },
+  {
+    "id": "4.1.2",
+    "title": "Name, Role, Value",
+    "A": "inapplicable",
+    "AA": "inapplicable",
+    "AAA": "inapplicable",
+    "details": {
+      "description": "Ensure aria-braillelabel and aria-brailleroledescription have a non-braille equivalent",
+      "ruleId": "aria-braille-equivalent"
+    }
+  },
+  {
+    "id": "4.1.2",
+    "title": "Name, Role, Value",
+    "A": "inapplicable",
+    "AA": "inapplicable",
+    "AAA": "inapplicable",
+    "details": {
+      "description": "Ensure every ARIA button, link and menuitem has an accessible name",
+      "ruleId": "aria-command-name"
+    }
+  },
+  {
+    "id": "4.1.2",
+    "title": "Name, Role, Value",
+    "A": "inapplicable",
+    "AA": "inapplicable",
+    "AAA": "inapplicable",
+    "details": {
+      "description": "Ensure ARIA attributes are used as described in the specification of the element's role",
+      "ruleId": "aria-conditional-attr"
+    }
+  },
+  {
+    "id": "4.1.2",
+    "title": "Name, Role, Value",
+    "A": "inapplicable",
+    "AA": "inapplicable",
+    "AAA": "inapplicable",
+    "details": {
+      "description": "Ensure elements do not use deprecated roles",
+      "ruleId": "aria-deprecated-role"
+    }
+  },
+  {
+    "id": "4.1.2",
+    "title": "Name, Role, Value",
+    "A": "inapplicable",
+    "AA": "inapplicable",
+    "AAA": "inapplicable",
+    "details": {
+      "description": "Ensure aria-hidden elements are not focusable nor contain focusable elements",
+      "ruleId": "aria-hidden-focus"
+    }
+  },
+  {
+    "id": "4.1.2",
+    "title": "Name, Role, Value",
+    "A": "inapplicable",
+    "AA": "inapplicable",
+    "AAA": "inapplicable",
+    "details": {
+      "description": "Ensure every ARIA input field has an accessible name",
+      "ruleId": "aria-input-field-name"
+    }
+  },
+  {
+    "id": "4.1.2",
+    "title": "Name, Role, Value",
+    "A": "inapplicable",
+    "AA": "inapplicable",
+    "AAA": "inapplicable",
+    "details": {
+      "description": "Ensure ARIA attributes are not prohibited for an element's role",
+      "ruleId": "aria-prohibited-attr"
+    }
+  },
+  {
+    "id": "4.1.2",
+    "title": "Name, Role, Value",
+    "A": "inapplicable",
+    "AA": "inapplicable",
+    "AAA": "inapplicable",
+    "details": {
+      "description": "Ensure elements with ARIA roles have all required ARIA attributes",
+      "ruleId": "aria-required-attr"
+    }
+  },
+  {
+    "id": "4.1.2",
+    "title": "Name, Role, Value",
+    "A": "inapplicable",
+    "AA": "inapplicable",
+    "AAA": "inapplicable",
+    "details": {
+      "description": "Ensure all elements with a role attribute use a valid value",
+      "ruleId": "aria-roles"
+    }
+  },
+  {
+    "id": "4.1.2",
+    "title": "Name, Role, Value",
+    "A": "inapplicable",
+    "AA": "inapplicable",
+    "AAA": "inapplicable",
+    "details": {
+      "description": "Ensure every ARIA toggle field has an accessible name",
+      "ruleId": "aria-toggle-field-name"
+    }
+  },
+  {
+    "id": "4.1.2",
+    "title": "Name, Role, Value",
+    "A": "inapplicable",
+    "AA": "inapplicable",
+    "AAA": "inapplicable",
+    "details": {
+      "description": "Ensure every ARIA tooltip node has an accessible name",
+      "ruleId": "aria-tooltip-name"
+    }
+  },
+  {
+    "id": "4.1.2",
+    "title": "Name, Role, Value",
+    "A": "inapplicable",
+    "AA": "inapplicable",
+    "AAA": "inapplicable",
+    "details": {
+      "description": "Ensure all ARIA attributes have valid values",
+      "ruleId": "aria-valid-attr-value"
+    }
+  },
+  {
+    "id": "4.1.2",
+    "title": "Name, Role, Value",
+    "A": "inapplicable",
+    "AA": "inapplicable",
+    "AAA": "inapplicable",
+    "details": {
+      "description": "Ensure attributes that begin with aria- are valid ARIA attributes",
+      "ruleId": "aria-valid-attr"
+    }
+  },
+  {
+    "id": "4.1.2",
+    "title": "Name, Role, Value",
+    "A": "inapplicable",
+    "AA": "inapplicable",
+    "AAA": "inapplicable",
+    "details": {
+      "description": "Ensure every id attribute value used in ARIA and in labels is unique",
+      "ruleId": "duplicate-id-aria"
+    }
+  },
+  {
+    "id": "4.1.2",
+    "title": "Name, Role, Value",
+    "A": "inapplicable",
+    "AA": "inapplicable",
+    "AAA": "inapplicable",
+    "details": {
+      "description": "Ensure <iframe> and <frame> elements contain a unique title attribute",
+      "ruleId": "frame-title-unique"
+    }
+  },
+  {
+    "id": "4.1.2",
+    "title": "Name, Role, Value",
+    "A": "inapplicable",
+    "AA": "inapplicable",
+    "AAA": "inapplicable",
+    "details": {
+      "description": "Ensure <iframe> and <frame> elements have an accessible name",
+      "ruleId": "frame-title"
+    }
+  },
+  {
+    "id": "4.1.2",
+    "title": "Name, Role, Value",
+    "A": "inapplicable",
+    "AA": "inapplicable",
+    "AAA": "inapplicable",
+    "details": {
+      "description": "Ensure <input type=\"image\"> elements have alternative text",
+      "ruleId": "input-image-alt"
+    }
+  },
+  {
+    "id": "4.1.2",
+    "title": "Name, Role, Value",
+    "A": "inapplicable",
+    "AA": "inapplicable",
+    "AAA": "inapplicable",
+    "details": {
+      "description": "Ensure select element has an accessible name",
+      "ruleId": "select-name"
+    }
+  },
+  {
+    "id": "4.1.2",
+    "title": "Name, Role, Value",
+    "A": "inapplicable",
+    "AA": "inapplicable",
+    "AAA": "inapplicable",
+    "details": {
+      "description": "Ensure summary elements have discernible text",
+      "ruleId": "summary-name"
+    }
+  },
+  {
+    "id": "4.1.3",
+    "title": "Status Messages",
+    "A": null,
+    "AA": "pass",
+    "AAA": "pass"
+  }
+]
